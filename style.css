@@ -1,7 +1,94 @@
-.indexx{
-	background-color:pink;
-	height:100px;
-	width:2000px;
+body{
+	background:#ddd;
+}
+
+#genel{
+   width:990px;
+   height:auto;
+   margin:auto;
+
+
 
 
 }
+.ust{
+   width:990px;
+   height:150px;
+   background:#eee;
+  
+
+
+
+}
+.menu{
+  margin-top:20px;
+  width:990px;
+  height:80px;
+  background:#5bcaf0;
+  margin-bottom:20px;
+
+
+
+}
+.menu ul li{
+list-style:none;
+float:left;
+padding:15px;
+margin:15px;
+width:95px;
+background:#69dbdc;
+border:1px solid #ddd;
+
+
+}
+.menu ul li a{
+  text-decoration:none;
+  font:bold 13px verdana;
+  color:black;
+
+
+
+}
+.icerik{
+	width:990px;
+	height:auto;
+	
+}
+.icerik-sag{
+
+width:300px;
+min-height:450px;
+background:skyblue;
+float:left;
+margin-left:90px;
+
+
+
+}
+.icerik-sol{
+width:600px;
+min-height:450px;
+background:#cb5bf0;
+float:left;
+
+}
+.alt{
+
+width:990px;
+height:60px;
+background:#6dc546;
+float:left;
+margin-top:20px;
+margin-bottom:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
