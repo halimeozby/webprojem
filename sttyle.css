@@ -11,7 +11,14 @@ body{
 
 
 }
+.logo {
+     float: left;
+
+     
+     
+}
 .ust{
+  
    width:990px;
    height:150px;
    background:#eee;
@@ -20,6 +27,7 @@ body{
 
 
 }
+
 .menu{
   margin-top:20px;
   width:990px;
