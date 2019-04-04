@@ -10,11 +10,51 @@
     <div id="menu">
     <a href="index.html">Anasayfa</a></br>
     <a href="kadin.html">Kadın Giyim</a></br>
-    <a href="erkek.html">Kadın Giyim</a></br>
+    <a href="erkek.html">Erkek Giyim</a></br>
     <a href="taki.html">Takilar</a></br>
+    <a href="iletisim.html">İletisim</a></br>
+
     </div>
     <div id="icerik">
-        
+        <form method="get" >
+<table border="0">
+<tr>
+<td>Ad :</td>
+<td><input type="text" name="ad" id="ad" required placeholder="Lütfen Adınızı Girin"></td>
+</tr>
+<tr>
+<td>Soyad :</td>
+<td><input type="text"name="soyad"id="soyad" required placeholder="Lütfen Soyadınızı Girin"></td>
+</tr>
+
+<tr>
+ 
+<td colspan="2">
+KADIN<input type="radio"name="cinsiyet" id="cinsiyet"  value="kadın">
+ERKEK<input type="radio" name="cinsiyet" id="cinsiyet" value="erkek">
+</td>
+ 
+</tr>
+<tr>
+<td>YAŞ</td>
+<td><input type="number" name="yas" id="yas" min="18" max="88"></td>
+</tr>
+ 
+<tr>
+<td>MAİL:</td>
+<td><input type="email" name="mail" id="mail" required></td>
+</tr>
+ 
+<tr>
+<td colspan="2">
+<input type="submit" name="kaydet" id="kaydet" value="KAYDET">
+<input type="reset" name="sil" id="sil" value="TEMİZLE">
+       
+</td>
+</tr>        
+    </table>    
+ 
+</form>
     </div>
     <div id="footer">TÜM HAKLAR HALİME ÖZBEY'E AİTTİR</div>
     </body>
