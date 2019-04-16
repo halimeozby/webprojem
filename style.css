@@ -44,9 +44,10 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 5px;
+  float:center;
 }
 #resim-1 {
-  background-image: url(img/20180205-sevgililer-gunu-d.jpg);
+
   background-repeat: no-repeat;
   float: left;
   height: 282px;
