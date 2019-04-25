@@ -20,19 +20,18 @@
         <td width="233"><div align="center"><a href="iletisim.html">İLETİŞİM</a></div></td>
       </tr>
     </table>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+    
   </div>
   <div id="form">
-   <table border="0" align="center">
+   <form align="center">
 <tr>
 <td>Ad :</td>
 <td><input type="text" name="ad" id="ad" required placeholder="Lütfen Adınızı Girin"></td>
-</tr>
+</tr><br>
 <tr>
 <td>Soyad :</td>
 <td><input type="text"name="soyad"id="soyad" required placeholder="Lütfen Soyadınızı Girin"></td>
-</tr>
+</tr><br>
 
 <tr>
  
@@ -41,25 +40,43 @@ KADIN<input type="radio"name="cinsiyet" id="cinsiyet"  value="kadın">
 ERKEK<input type="radio" name="cinsiyet" id="cinsiyet" value="erkek">
 </td>
  
-</tr>
+</tr><br>
 <tr>
 <td>YAŞ</td>
 <td><input type="number" name="yas" id="yas" min="18" max="88"></td>
-</tr>
+</tr><br>
  
 <tr>
 <td>MAİL:</td>
 <td><input type="email" name="mail" id="mail" required></td>
-</tr>
- 
+</tr><br>
+
+<tr>
+  <td><label for="telefon">TELEFON:</label>
+       <input type="text" ad="telefon"></td></tr><br>
+
+Yaşadığınız İl:<select>
+<option>İstanbul</option>
+<option>Ankara</option>
+<option>İzmir</option>
+</select>
+<br>
+<tr>
+<td>Adresiniz:</td>
+<textarea rows="5" cols="30"></textarea></tr>
+<br> 
+ <tr>
+ <td>Görüşleriniz:</td>
+ <td><textarea name="gorus" id="gorus" placeholder="Görüşleriniz bizim için önemli"></textarea>
+</td></tr><br>
+
 <tr>
 <td colspan="2">
 <input type="submit" name="kaydet" id="kaydet" value="KAYDET">
 <input type="reset" name="sil" id="sil" value="TEMİZLE">
        
 </td>
-</tr>        
-    </table>    
+</tr><br>      
  
 </form>
     </div>
@@ -70,7 +87,7 @@ ERKEK<input type="radio" name="cinsiyet" id="cinsiyet" value="erkek">
     <table width="1499" height="69" border="0" bgcolor="#999999">
       <tr>
         <td><div align="center">
-          <p>&nbsp;</p>
+         
           <p>2018 - Tüm Hakları HALİME ÖZBEY'e Aittir.</p>
         </div></td>
       </tr>
